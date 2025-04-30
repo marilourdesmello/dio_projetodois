@@ -1,38 +1,25 @@
 # dio_projetodois
-# Chat com PDFs usando Azure OpenAI
+# Chat Inteligente com PDFs usando IA
 
-## 🔍 Visão Geral
+## 💡 Visão Geral
 
-Este projeto é um assistente virtual baseado em IA capaz de responder perguntas sobre o conteúdo de arquivos PDF utilizando embeddings e modelos da Azure OpenAI.
+Este projeto tem como objetivo usar IA generativa e busca vetorial para permitir a interação com artigos acadêmicos em PDF de forma dinâmica.
 
-## 🚀 Tecnologias Usadas
-- Azure OpenAI (GPT-4)
+## 🧱 Tecnologias Usadas
 - LangChain
 - FAISS
+- OpenAI API
 - Streamlit
 - PyMuPDF
 
 ## 📷 Prints
-*Adicione aqui prints da interface com perguntas e respostas geradas.*
+![interface](prints/interface.png)
+![resultado](prints/resultado.png)
 
-## 🛠 Como Rodar Localmente
+## 🔍 Exemplos de Perguntas
+- "Qual a principal contribuição do artigo X?"
+- "Cite os autores que discutem sobre microserviços."
 
-1. Clone o repositório:
-```bash
-git clone (https://github.com/marilourdesmello/dio_projetodois.git)
-```
-
-2. Instale as dependências:
-```bash
-pip install -r requirements.txt
-```
-
-3. Crie um arquivo `.env` com suas chaves da Azure.
-4. Rode o app:
-```bash
-streamlit run app.py
-```
-
-## 💡 Exemplos de perguntas:
-- "Qual o objetivo principal do artigo?"
-- "O que é microserviço?"
+## 🎯 Resultados e Insights
+- Redução significativa no tempo de leitura e correlação de informações
+- Capacidade de integrar múltiplos artigos e gerar resumos contextuais
