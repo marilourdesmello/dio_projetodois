@@ -1,0 +1,12 @@
+1. Estrutura de Pastas e Arquivos
+
+chat-pdf-azure/
+├── inputs/
+│   └── exemplo.pdf
+├── src/
+│   ├── ingest.py           # Lê o PDF e gera embeddings
+│   ├── vector_store.py     # Indexa e faz buscas com FAISS
+│   └── chatbot.py          # Cria o chatbot com Azure OpenAI
+├── app.py                  # Interface Streamlit
+├── requirements.txt
+└── README.md
